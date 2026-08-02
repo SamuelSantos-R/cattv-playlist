@@ -1,0 +1,31 @@
+name: Curar playlist de canais
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Testar canais e gerar playlist
+        run: python3 scripts/build_playlist.py
+
+      - name: Commitar se mudou
+        run: |
+          set -euo pipefail
+          if git diff --quiet playlist/br.m3u; then
+            echo "playlist igual, nada a fazer"
+            exit 0
+          fi
+          total=$(grep -c '^#EXTINF' playlist/br.m3u)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist/br.m3u
+          git commit -m "Playlist: $total canais no ar"
+          git push

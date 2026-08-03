@@ -84,18 +84,24 @@ def main():
         if area > logos.get(cid, (0, None))[0]:
             logos[cid] = (area, logo["url"])
 
-    # Um stream por canal, o de maior resolução anunciada.
-    best = {}
+    # Vários links por canal. Testa todos, porque o de maior resolução costuma ser
+    # o mais abandonado — a Globo e a GloboNews só sobrevivem no link secundário.
+    by_channel = {}
     for s in sorted(streams, key=quality_rank, reverse=True):
         cid = s.get("channel") or ""
         if cid.endswith(f".{COUNTRY}") and s.get("url"):
-            best.setdefault(cid, s)
-    candidates = list(best.values())
-    print(f"{len(candidates)} canais {COUNTRY.upper()} candidatos", flush=True)
+            by_channel.setdefault(cid, []).append(s)
+    print(f"{len(by_channel)} canais {COUNTRY.upper()}, "
+          f"{sum(len(v) for v in by_channel.values())} links", flush=True)
+
+    def first_alive(candidates):
+        for s in candidates:
+            if is_alive(s):
+                return s
+        return None
 
     with futures.ThreadPoolExecutor(WORKERS) as pool:
-        alive = list(pool.map(is_alive, candidates))
-    approved = [s for s, ok in zip(candidates, alive) if ok]
+        approved = [s for s in pool.map(first_alive, by_channel.values()) if s]
     print(f"{len(approved)} no ar", flush=True)
 
     if len(approved) < 50:

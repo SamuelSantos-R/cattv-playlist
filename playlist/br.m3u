@@ -93,6 +93,8 @@ http://45.162.64.114/SONY_MOVIES/index.m3u8
 https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 #EXTINF:-1 tvg-id="AmazonSat.br" group-title="Geral" tvg-logo="https://i.imgur.com/7rjCS5i.png" tvg-quality="1080p",Amazon Sat
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
+#EXTINF:-1 tvg-id="ArarunaTV.br" group-title="Geral" tvg-logo="https://i.imgur.com/jl39ula.png",Araruna TV
+https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Band.br" group-title="Geral" tvg-logo="https://i.imgur.com/1r5T6Pw.png" tvg-quality="720p",Band
 http://45.190.28.50/BAND_HD/index.m3u8
 #EXTINF:-1 tvg-id="BoasNovas.br" group-title="Geral" tvg-logo="https://i.imgur.com/ZqhizdP.png" tvg-quality="1080p",Boas Novas
@@ -177,6 +179,8 @@ https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8
 http://45.190.28.50/SONY_HD/index.m3u8
 #EXTINF:-1 tvg-id="TV3Curitiba.br" group-title="Geral" tvg-logo="https://eswqkrogupaisirwcsys.supabase.co/storage/v1/object/public/mbc-media/canais/1776133208960-o2l2f7f02f.png",TV 3 Curitiba
 https://stmv.webtvninjas.com.br/tv3/tv3/playlist.m3u8
+#EXTINF:-1 tvg-id="TVACritica.br" group-title="Geral" tvg-logo="https://i.imgur.com/j51rBro.png",TV A Critica
+https://cdn.live.br1.jmvstream.com/w/LVW-20715/LVW20715_50E3x2MCm2/playlist.m3u8
 #EXTINF:-1 tvg-id="TVAldeia.br" group-title="Geral" tvg-logo="https://i.imgur.com/rsfnv4Z.png" tvg-quality="720p",TV Aldeia
 https://stmv1.samcast.com.br/giovane7843/giovane7843/playlist.m3u8
 #EXTINF:-1 tvg-id="TVAliancaCatarinense.br" group-title="Geral" tvg-logo="https://i.imgur.com/eqmOhtP.png" tvg-quality="720p",TV Alianca Catarinense
@@ -227,8 +231,6 @@ https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/p
 https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMarajoara.br" group-title="Geral" tvg-logo="https://i.imgur.com/9d9vBN7.png" tvg-quality="720p",TV Marajoara
 https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMetropole.br" group-title="Geral" tvg-logo="https://i.imgur.com/bJyjLpg.png" tvg-quality="720p",TV Metropole
-https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNatal.br" group-title="Geral" tvg-logo="https://i.imgur.com/wqQmQml.png" tvg-quality="1080p",TV Natal
 http://185.228.163.146:8000/play/a01y/index.m3u8
 #EXTINF:-1 tvg-id="TVPantanalMS.br" group-title="Geral" tvg-logo="https://i.imgur.com/0FOmktl.png" tvg-quality="360p",TV Pantanal MS
@@ -245,6 +247,8 @@ http://45.177.114.115/TV_RA_TIM_BUM/index.m3u8
 https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSenado.br" group-title="Geral" tvg-logo="https://i.imgur.com/duy6waL.png" tvg-quality="720p",TV Senado
 http://45.162.64.114/TV_SENADO/index.m3u8
+#EXTINF:-1 tvg-id="TVShowFortaleza.br" group-title="Geral" tvg-logo="https://static.wixstatic.com/media/9af6b8_e963e864c8fb40d3954f5c1c8cab1b40~mv2.png" tvg-quality="720p",TV Show Fortaleza
+https://stmv8.samcast.com.br/raimundoanselmolimamororo1908/raimundoanselmolimamororo1908/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSulBahia.br" group-title="Geral" tvg-logo="https://i.imgur.com/qM6nMWm.png" tvg-quality="320p",TV Sul Bahia
 https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSuldeMinas.br" group-title="Geral" tvg-logo="https://i.imgur.com/hPh8cxK.png" tvg-quality="720p",TV Sul de Minas
@@ -261,10 +265,6 @@ http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
 http://45.190.28.50/TVE/index.m3u8
 #EXTINF:-1 tvg-id="TVLatinaSat.br" group-title="Geral" tvg-logo="https://latinasat.com.br/logo.png" tvg-quality="720p",TVLatinaSat
 https://www.latinasat.com.br/hls/live/stream/index.m3u8
-#EXTINF:-1 tvg-id="TVNBN.br" group-title="Geral" tvg-logo="https://i.imgur.com/zoHBxn1.png" tvg-quality="720p",TVNBN
-https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
-#EXTINF:-1 tvg-id="TVitape.br" group-title="Geral" tvg-logo="https://i.imgur.com/XeqcwKe.png" tvg-quality="720p",TVitape
-https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8
 #EXTINF:-1 tvg-id="WooHoo.br" group-title="Geral" tvg-logo="https://i.imgur.com/me622pa.png" tvg-quality="720p",WooHoo
 http://45.162.64.114/WOOHOO/index.m3u8
 #EXTINF:-1 tvg-id="BoxKidsTV.br" group-title="Infantil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Boxkidstv.png" tvg-quality="720p",Box Kids TV
@@ -279,8 +279,8 @@ https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
 http://45.177.114.115/TV_BRASIL_2/index.m3u8
 #EXTINF:-1 tvg-id="TVAssembleiaPiaui.br" group-title="Legislativo" tvg-logo="https://i.imgur.com/eMguSjM.png",TV Assembleia Piaui
 https://stmv1.srvstm.com/piaui8071/piaui8071/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCamara.br" group-title="Legislativo" tvg-logo="https://i.imgur.com/Sdou1Ab.png" tvg-quality="1080p",TV Camara
-https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXTINF:-1 tvg-id="TVCamara.br" group-title="Legislativo" tvg-logo="https://i.imgur.com/Sdou1Ab.png" tvg-quality="720p",TV Camara
+http://45.162.64.114/TV_CAMARA/index.m3u8
 #EXTINF:-1 tvg-id="KpopTVPlay.br" group-title="Música" tvg-logo="https://i.imgur.com/Tf0vweF.png" tvg-quality="576p",KpopTV Play
 https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-id="LamoreRockShowWebTV.br" group-title="Música" tvg-logo="https://www.lamorerockshowwebtv.com.br/wp-content/uploads/2024/11/logo_rockshow.avif" tvg-quality="720p",Lamore Rock Show WebTV
